@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background: #250d0b url(img/选座.jpg) top repeat-x;
+}
+
+#loginlink #ab{
+    list-style: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li{
+    float: left;
+    line-height: 80px;
+}
+
+li a{
+    margin-right: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+body{
+    text-align: center;
+}
+
+.login label
+{
+    margin-right: 10px;
+    color: #888;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.login .input
+{
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding:10px 5px;
+    width:180px;
+    margin-right: 60px;
+}
+.login .item
+{
+    margin:28px auto;
+}
+.login .btn
+{
+    background: #e40;
+    border:1px solid #e40;
+    border-radius:5px;
+    padding:10px 5px;
+    width:120px;
+    color:#fff;
+    text-align: center;
+}
+
+
+.loginbtn{
+    float: left;
+}
+
+.pop{
+    width: 160px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pop_color{
+    background: grey;
+}
+
+.registerbtn{
+    float: left;
+    margin-left: 10px;
+}
+
+/*start booking*/
+
+#screen{
+    display: block;
+    width: 600px;
+    color: red;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: 3px solid #af1313;
+    text-align: center;
+    margin: 10px auto 20px auto;
+}
+#seats{
+    border: 1px solid green;
+    width: 844px;
+    margin: 0 auto;
+    padding: 10px;
+    background: white;
+}
+.seat {
+    float: left;
+    width: 80px;
+    box-sizing: border-box;
+    color: #676767;
+    padding: 1px;
+    height: 30px;
+    background: #D8D8D8;
+    border: 1px solid #979797;
+    margin: 5px;
+    border-bottom: 3px solid #F35E4F;
+    border-radius: 10px; 
+    cursor: pointer;
+    text-align: center;
+}
+.seatsRaw {
+    display:inline-block;
+}
+#booking_desc {
+    width: 550px;
+    /* border: 1px solid red; */
+    background-color: #3C3636;
+    color: #FAFAFA;
+    margin: 30px auto;
+    padding: 10px;
+    display: table;
+    }
+.booking_left, .booking_right {
+    width:250px;
+    float:left;
+    }
+#total span {
+    font-size: 16px;
+    color: burlywood;
+    }
+#errMsg{
+    color: #FF7777;
+    }
+
+.layer-mask
+{
+display: none;
+z-index: 99999;
+position: fixed;
+top : 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+
+background: #000;
+opacity: 0.5;
+}
+
+
+/*弹出层窗体*/
+.layer-pop
+{
+display: none;
+z-index : 100000;
+position: fixed;
+top : 0;
+left : 0;
+right : 0;
+bottom: 0;
+margin: auto;
+
+
+width: 220px;
+height: 189px;
+background: #fff;
+}
+/*弹出层关闭按钮*/
+.layer-close
+{
+float :right;
+width: 24px;
+height: 24px;
+border: 3px solid #fff;
+text-align: center;
+line-height: 24px;
+border-radius: 50%;
+background: #eee;
+
+
+margin-right: -12px;
+margin-top:-12px; 
+}
+.layer-close:hover
+{
+cursor: pointer;
+background: #ccc;
+color: #fff;
+}
+
+.layer-mask1
+{
+display: none;
+z-index: 99999;
+position: fixed;
+top : 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+
+background: #000;
+opacity: 0.5;
+}
+
+
+/*弹出层窗体*/
+.layer-pop1
+{
+display: none;
+z-index : 100000;
+position: fixed;
+top : 0;
+left : 0;
+right : 0;
+bottom: 0;
+margin: auto;
+
+
+width: 350px;
+height: 270px;
+background: #F0F8FF;
+}
+/*弹出层关闭按钮*/
+.layer-close1
+{
+float :right;
+width: 24px;
+height: 24px;
+border: 3px solid #fff;
+text-align: center;
+line-height: 24px;
+border-radius: 50%;
+background: #eee;
+
+
+margin-right: -12px;
+margin-top:-12px; 
+}
+.layer-close1:hover
+{
+cursor: pointer;
+background: #ccc;
+color: #fff;
+}

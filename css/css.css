@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#loginlink #ab{
+    list-style: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li{
+    float: left;
+    line-height: 80px;
+}
+
+li a{
+    margin-right: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+body{
+    text-align: center;
+}
+
+.login label
+{
+    margin-right: 10px;
+    color: #888;
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.login .input
+{
+    border:1px solid #ccc;
+    border-radius:3px;
+    padding:10px 5px;
+    width:180px;
+    margin-right: 60px;
+}
+.login .item
+{
+    margin-top:28px;
+}
+.login .btn
+{
+    background: #e40;
+    border:1px solid #e40;
+    border-radius:5px;
+    padding:10px 5px;
+    width:120px;
+    color:#fff;
+    text-align: center;
+}
+
+
+.loginbtn{
+    float: left;
+}
+
+.pop{
+    width: 160px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pop_color{
+    background: grey;
+}
+
+.registerbtn{
+    float: left;
+    margin-left: 10px;
+}
+
+.btn-gp {
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.btn {
+    height: 40px;
+    width: 180px;
+    border-radius: 0;
+    margin-left: 10px;
+    background-color: black;
+}
+.btn-active {
+    background: url("../img/按钮.jpg");
+}
+.actively {
+    background: url("../img/按钮.jpg");
+}
+.bg-img1 {
+    width:100%;
+    height:290px;
+    overflow:hidden;
+    background: url("../img/妖铃铃.jpg");
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-img2 {
+    width:100%;
+    height:290px;
+    overflow:hidden;
+    background: url("../img/二代妖精之今生有幸.jpg");
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-img3 {
+    width:100%;
+    height:290px;
+    overflow:hidden;
+    background: url("../img/星球大战-最后的绝地武士.jpg");
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-img4 {
+    width:100%;
+    height:290px;
+    overflow:hidden;
+    background: url("../img/公牛历险记.jpg");
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg-img5 {
+    width:100%;
+    height:290px;
+    overflow:hidden;
+    background: url("../img/卧底巨星.jpg");
+    background-position:50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.movie {
+    margin: 0 auto;
+    width: 810px;
+    height: 1000px;
+    /*background-color: red;*/
+}
+
+
+.movie-info{
+    margin-top: 100px;
+    border:solid #ddd;
+    padding: 0;
+    height: 260px;
+    background-color:#F0F8FF;
+}
+.name{
+    font-size: 10px;
+    font-weight: bold;
+}
+.movie-info-font{
+    font-size: 10px;
+    opacity: 0.8;
+}
+.brief{
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.img{
+    width: 100%;
+    height: 115px;
+    background-color: gray;
+}
+
+
+.showing{
+    width: 100%;
+    height: 300px;
+    border: solid #ddd;
+    text-align: center;
+}
+.showing-item{
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.showing-item button{
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.menu-click{
+    background: white;
+}
+
+
+
+.layer-mask
+{
+display: none;
+z-index: 99999;
+position: fixed;
+top : 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+
+background: #000;
+opacity: 0.5;
+}
+
+
+/*弹出层窗体*/
+.layer-pop
+{
+display: none;
+z-index : 100000;
+position: fixed;
+top : 0;
+left : 0;
+right : 0;
+bottom: 0;
+margin: auto;
+
+
+width: 350px;
+height: 270px;
+background: #F0F8FF;
+}
+/*弹出层关闭按钮*/
+.layer-close
+{
+float :right;
+width: 24px;
+height: 24px;
+border: 3px solid #fff;
+text-align: center;
+line-height: 24px;
+border-radius: 50%;
+background: #eee;
+
+
+margin-right: -12px;
+margin-top:-12px; 
+}
+.layer-close:hover
+{
+cursor: pointer;
+background: #ccc;
+color: #fff;
+}
+
+
